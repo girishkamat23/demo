@@ -1,0 +1,119 @@
+.container {
+  margin: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.contact-item{
+  background-color: #7bb5df;
+  margin: 10px;
+  border-left: 10px solid navy;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.btn-delete{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  border-radius: 50%;
+  border: 0px;
+  cursor: pointer;
+}
+
+.btn-delete:hover{
+  background-color: rgb(209, 201, 201);
+  color: red;
+}
+
+.btn-primary{
+  background-color: rgb(148, 148, 202);
+  width: fit-content;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover{
+  background-color: rgb(141, 141, 214);
+}
+
+.no-data{
+  padding: 0px 10px;
+}
+
+.contact-item p,h3{
+  margin: 2px;
+}
+
+.modal-form{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+
+.modal-form input{
+  margin: 5px 0px;
+  height: 25px;
+  width: 100%;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-container{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #00000057;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
