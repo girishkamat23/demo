@@ -64,6 +64,8 @@
 
 .btn-primary{
   background-color: rgb(148, 148, 202);
+  font-weight: bold;
+  font-size: 12px;
   width: fit-content;
   color: white;
   outline: none;
@@ -116,4 +118,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* header css */
+
+.header-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-list #link{
+  background: skyblue;
+  padding: 10px 20px;
+  width: 100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.active{
+  background: rgb(82, 173, 209);
 }
